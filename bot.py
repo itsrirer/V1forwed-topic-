@@ -19,8 +19,8 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ---------- ENV ----------
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGO_URI = os.getenv("MONGO_URI")
+BOT_TOKEN = os.getenv("8239490595:AAE2lUq4s-UfezdXMCq7Q6DPRgrF2ZF5BB0")
+MONGO_URI = os.getenv("mongodb+srv://riderits57_db_user:HDylKADKpgmUGbDF@pushpabhau.vkuiapi.mongodb.net/?appName=pushpabhau")
 
 if not (BOT_TOKEN and MONGO_URI):
     raise RuntimeError("BOT_TOKEN and MONGO_URI required")
